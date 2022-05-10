@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(211.0, 504.0)" />
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(211.0, 550.0)" />
 		<node id="1" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(421.0, 554.0)" />
 		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(610.0, 563.0)" />
-		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(767.0, 553.0)" />
+		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(789.0, 566.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Images" enabled="true" />
@@ -14,26 +14,28 @@
 	<annotations />
 	<thumbnail />
 	<node_properties>
-		<properties node_id="0" format="pickle">gASVWQMAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+		<properties node_id="0" format="pickle">gASV2QMAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
 cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
-YXRolIw8QzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRvcy9NYWNoaW5lTGVhcm5pbmcv
-UHJveWVjdG81lIwGcHJlZml4lE6MB3JlbHBhdGiUTowFdGl0bGWUjACUjAVzaGVldJRoDowLZmls
-ZV9mb3JtYXSUTnViaAYpgZR9lChoCYxRQzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRv
-cy9NYWNoaW5lTGVhcm5pbmcvUHJveWVjdG8xL1Byb2plY3RfNC9NYXNrcy90ZXN0lGgLjAdiYXNl
-ZGlylGgMjApNYXNrcy90ZXN0lGgNaA5oD2gOaBBOdWJoBimBlH2UKGgJjExDOi9Vc2Vycy9vc2Nh
-ci9PbmVEcml2ZS9Eb2N1bWVudG9zL01hY2hpbmVMZWFybmluZy9Qcm95ZWN0bzEvUHJvamVjdF80
-L01hc2tzlGgLaBRoDIwFTWFza3OUaA1oDmgPaA5oEE51YmgGKYGUfZQoaAmMVEM6L1VzZXJzL29z
-Y2FyL09uZURyaXZlL0RvY3VtZW50b3MvTWFjaGluZUxlYXJuaW5nL1Byb3llY3RvMS9Qcm9qZWN0
-XzQvRW1vdGlvbnMvdGVzdJRoC4wHYmFzZWRpcpRoDIwNRW1vdGlvbnMvdGVzdJRoDWgOaA9oDmgQ
-TnViaAYpgZR9lChoCYxOQzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRvcy9NYWNoaW5l
-TGVhcm5pbmcvUHJveWVjdG8xL1Byb2plY3RfMy9GbG93ZXJzlGgLjAdiYXNlZGlylGgMjAdGbG93
-ZXJzlGgNaA5oD2gOaBBOdWJljBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAL7AAAB
-ugAABIUAAAJMAAAC+wAAAboAAASFAAACTAAAAAAAAAAAB4AAAAL7AAABugAABIUAAAJMlIwLX192
-ZXJzaW9uX1+USwF1Lg==
+YXRolIxOQzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRvcy9NYWNoaW5lTGVhcm5pbmcv
+UHJveWVjdG8xL1Byb2plY3RfNS9EYXRhc2V0lIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiU
+jAdEYXRhc2V0lIwFdGl0bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViaAYpgZR9lCho
+CYw8QzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRvcy9NYWNoaW5lTGVhcm5pbmcvUHJv
+eWVjdG81lGgLTmgNTmgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjFFDOi9Vc2Vycy9vc2Nhci9PbmVE
+cml2ZS9Eb2N1bWVudG9zL01hY2hpbmVMZWFybmluZy9Qcm95ZWN0bzEvUHJvamVjdF80L01hc2tz
+L3Rlc3SUaAuMB2Jhc2VkaXKUaA2MCk1hc2tzL3Rlc3SUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmM
+TEM6L1VzZXJzL29zY2FyL09uZURyaXZlL0RvY3VtZW50b3MvTWFjaGluZUxlYXJuaW5nL1Byb3ll
+Y3RvMS9Qcm9qZWN0XzQvTWFza3OUaAtoGWgNjAVNYXNrc5RoD2gQaBFoEGgSTnViaAYpgZR9lCho
+CYxUQzovVXNlcnMvb3NjYXIvT25lRHJpdmUvRG9jdW1lbnRvcy9NYWNoaW5lTGVhcm5pbmcvUHJv
+eWVjdG8xL1Byb2plY3RfNC9FbW90aW9ucy90ZXN0lGgLjAdiYXNlZGlylGgNjA1FbW90aW9ucy90
+ZXN0lGgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjE5DOi9Vc2Vycy9vc2Nhci9PbmVEcml2ZS9Eb2N1
+bWVudG9zL01hY2hpbmVMZWFybmluZy9Qcm95ZWN0bzEvUHJvamVjdF8zL0Zsb3dlcnOUaAuMB2Jh
+c2VkaXKUaA2MB0Zsb3dlcnOUaA9oEGgRaBBoEk51YmWME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB
+2dDLAAMAAAAAAvoAAAGUAAAEhgAAAk0AAAL7AAABugAABIUAAAJMAAAAAAAAAAAHgAAAAvsAAAG6
+AAAEhQAAAkyUjAtfX3ZlcnNpb25fX5RLAXUu
 </properties>
-		<properties node_id="1" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03&amp;\x00\x00\x01q\x00\x00\x04Z\x00\x00\x02l\x00\x00\x03'\x00\x00\x01\x97\x00\x00\x04Y\x00\x00\x02k\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03'\x00\x00\x01\x97\x00\x00\x04Y\x00\x00\x02k", '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03'\x00\x00\x01\x97\x00\x00\x04Y\x00\x00\x02o\x00\x00\x03'\x00\x00\x01\x97\x00\x00\x04Y\x00\x00\x02o\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03'\x00\x00\x01\x97\x00\x00\x04Y\x00\x00\x02o", '__version__': 1}</properties>
 		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf7\x00\x00\x07\x80\x00\x00\x04\x06\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
-		<properties node_id="3" format="literal">{'add_type_annotations': False, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03C\x00\x00\x01\x96\x00\x00\x04h\x00\x00\x02J\x00\x00\x03D\x00\x00\x01\xbc\x00\x00\x04g\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03D\x00\x00\x01\xbc\x00\x00\x04g\x00\x00\x02I', 'stored_name': 'Marvel_Heroes.csv', 'stored_path': 'C:/Users/oscar/OneDrive/Documentos/MachineLearning/Proyecto1/Project_5', '__version__': 2}</properties>
+		<properties node_id="3" format="literal">{'add_type_annotations': False, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03D\x00\x00\x01\xbc\x00\x00\x04g\x00\x00\x02I\x00\x00\x03D\x00\x00\x01\xbc\x00\x00\x04g\x00\x00\x02I\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03D\x00\x00\x01\xbc\x00\x00\x04g\x00\x00\x02I', 'stored_name': 'Marvel_Heroes.csv', 'stored_path': 'C:/Users/oscar/OneDrive/Documentos/MachineLearning/Proyecto1/Project_5', '__version__': 2}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
